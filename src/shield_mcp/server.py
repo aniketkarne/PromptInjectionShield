@@ -22,7 +22,7 @@ if not logger.handlers:
     logger.addHandler(file_handler)
     logger.addHandler(stream_handler)
 
-mcp = FastMCP("PromptInjectionShield")
+mcp = FastMCP("aco-prompt-shield")
 
 # Initialize detectors
 heuristic_detector = HeuristicDetector()
